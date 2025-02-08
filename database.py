@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-DATABASE_URL = "postgresql://postgres:Aqwpmn963!@localhost:5432/books_db"
+DATABASE_URL = "postgresql://id:password@localhost:5432/database_name" #mettre votre id, password et nom de bdd
 
 engine = create_engine(DATABASE_URL, client_encoding="utf8")
 
