@@ -80,6 +80,14 @@ def main():
     db = Session(engine)
     categories = get_categories()
     
+    for name in categories.keys():
+        existing_category = db.query(Category).filter_by(name=name).first()
+        if not existing_category:
+            new_category = (Category(name=name))
+            db.add(new_category)
+    
+    db.commit()
+    
     for name, url in categories.items():
         print(f"Scraping catégorie : {name}")
         scrape_books(name, url, db)
