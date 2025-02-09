@@ -55,11 +55,13 @@ python check_db.py
 
 Améliorations futures
 
-Ajouter une interface Web (Flask/Django)
+Ajouter une interface tkinter ✔
 
-Exporter les données en CSV
+Exporter les données en CSV ✔
 
-Ajouter une API REST pour interroger la base
+Ajouter plus de filtres
+
+Ajouter un champ de recherche dynamique
 
 Licence
 
