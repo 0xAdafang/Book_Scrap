@@ -48,21 +48,18 @@ python check_db.py
 
  Fonctionnalités
 
-✔ Scrape toutes les catégories de livres
-✔ Enregistre les titres, prix, notes et disponibilités
-✔ Stocke les données proprement dans PostgreSQL
-✔ Filtrage possible par note et prix
+- Scrape toutes les catégories de livres
+- Enregistre les titres, prix, notes et disponibilités
+- Stocke les données proprement dans PostgreSQL
+- Filtrage possible par note et prix
 
 Améliorations futures
 
-Ajouter une interface tkinter ✔
+Ajouter une interface tkinter 
 
-Exporter les données en CSV ✔
+Exporter les données en CSV 
 
 Ajouter plus de filtres
 
 Ajouter un champ de recherche dynamique
 
-Licence
-
-Ce projet est open-source sous licence MIT.
